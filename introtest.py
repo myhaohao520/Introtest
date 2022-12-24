@@ -15,6 +15,10 @@
 print("For the questions below, enter y for YES and n for NO")
 
 
+#Create a dictionary to store the answers to the questions
+answers = {"yes": 0, "no": 0}
+
+
 #Questions to determine if the user is Introvert or Extrovert
 
 while True:
@@ -23,7 +27,7 @@ while True:
     answers["yes"] += 1
   elif question_1 == "n":
     answers["no"] += 1
-                     
+
 while True:
   question_2 = input("Question 2: When a coworker/friend asks you to go have a drink after work, do you want to go?")
   if question_2 == "y":
@@ -72,10 +76,6 @@ while True:
     answer["yes"] += 1
   elif question_8 == "n":
     answers["no"] += 1
-                      
-                      
-#Create a dictionary to store the answers to the questions
-answers = {"yes": 0, "no": 0}
 
 
 #Function to determine whether the user is Introvert or Extrovert
