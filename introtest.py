@@ -86,6 +86,10 @@ while True:
   break
 
 
+#Display answers dictionary
+print("\nAnswers: " + str(answers))
+
+
 #Function to determine whether the user is Introvert or Extrovert
 def introvert_or_extrovert_test(answers):
   print("\nResults: ")
